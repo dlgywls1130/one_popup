@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+
+
+  .modal_new{
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+.modal_head{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D2A75;
+    position: relative;
+}
+
+.modal_title{
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.modal_right{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0,-50%);
+    display: flex;
+    align-items: center;
+}
+
+.modal_right .refresh{
+    margin-right: 15px;
+}
+.modal_right .refresh,
+.modal_right .close{
+    width: 20px;
+    height: 20px;
+}
+
+.modal_right .refresh img,
+.modal_right .close img{
+    width: 100%;
+    height: 100%;
+}
+
+.body_all_list{
+    border-top: 1px solid #565656;
+}
+
+.list_table_wrap,
+.list_table_wrap th,
+.list_table_wrap td{
+    border: 1px solid #E0E0E0;
+    border-collapse: collapse;
+}
+
+.list_table_wrap tr th:nth-child(1),
+.list_table_wrap tr td:nth-child(1){
+    width: 5%;
+}
+
+.list_table_wrap tr th:nth-child(2),
+.list_table_wrap tr td:nth-child(2){
+    width: 20%;
+}
+
+.list_table_wrap tr th:nth-child(3),
+.list_table_wrap tr td:nth-child(3){
+    width: 25%;
+}
+
+.list_table_wrap tr th:nth-child(4),
+.list_table_wrap tr td:nth-child(4){
+    width: 20%;
+}
+
+.list_table_wrap tr th:nth-child(5),
+.list_table_wrap tr td:nth-child(5){
+    width: 15%;
+}
+
+.list_table_wrap tr th:nth-child(6),
+.list_table_wrap tr td:nth-child(6){
+    width: 15%;
+}
+
+.list_table_wrap .table_head{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+
+.table_body_content td{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.column_sum{
+   
+}
+
+.bookmark_link{
+    width: 160px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 44px;
+}
+
+.bookmark_link p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+
+}
+
+.bookmark_link .bookmark_img{
+width: 14px;
+height: 14px;
+}
+
+.bookmark_link .bookmark_img img{
+    width: 100%;
+    height: 100%;
+}

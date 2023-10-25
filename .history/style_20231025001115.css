@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+
+  .modal_new{
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+.modal_head{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D2A75;
+    position: relative;
+}
+
+.modal_title{
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.modal_right{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0,-50%);
+    display: flex;
+    align-items: center;
+}
+
+.modal_right .refresh{
+    margin-right: 15px;
+}
+.modal_right .refresh,
+.modal_right .close{
+    width: 20px;
+    height: 20px;
+}
+
+.modal_right .refresh img,
+.modal_right .close img{
+    width: 100%;
+    height: 100%;
+}
+
+.body_all_list{
+    border-top: 1px solid #565656;
+}
+
+.list_table_wrap,
+.list_table_wrap th,
+.list_table_wrap td{
+    border: 1px solid #E0E0E0;
+    border-collapse: collapse;
+}
+
+.list_table_wrap tr th:nth-child(1){
+    width: 5%;
+}
+
+.list_table_wrap tr th:nth-child(2){
+    width: 20%;
+}
+
+.list_table_wrap tr th:nth-child(3){
+    width: 25%;
+}
+
+.list_table_wrap tr th:nth-child(4){
+    width: 20%;
+}
+
+.list_table_wrap tr th:nth-child(5){
+    width: 15%;
+}
+
+.list_table_wrap tr th:nth-child(6){
+    width: 15%;
+}

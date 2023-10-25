@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관심자원</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <button type="button">관심자원 불러오기</button>
+
+    <div class="modal_new">
+        <div class="modal_head">
+            <div class="modal_title">관심자원 불러오기</div>
+            <div class="modal_right">
+                <div class="refresh">
+                    <img src="./img/reload.png">
+                </div>
+                <div class="close">
+                    <img src="./img/close.png">
+                </div>
+            </div>
+        </div>
+        <div class="modal_body">
+            <div class="all_check">
+                <label>
+                    <input type="checkbox">
+                    <p>전체선택</p>
+                </label>
+            </div>
+
+            <div class="body_all_list">
+                <table class="list_table_wrap">
+                    <tr class="table_head">
+                        <th rowspan='2'>선택</th>
+                        <th rowspan='2'>자원분류</th>
+                        <th rowspan='2'>진단명</th>
+                        <th rowspan='2'>인체유래물 종류</th>
+                        <th colspan='2'>분양신청수량</th>
+                    </tr>
+                    <tr class="table_head">
+                        <td>명수</td>
+                        <td>바이알수</td>
+                    </tr>
+                    <tr class="table_body_content">
+                        <td><input type="checkbox" name="choice"></td>
+                        <td>종양성질환</td>
+                        <td>간 및 간내 담관의 악성 신생물(C22)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr  class="table_body_content">
+                        <td><input type="checkbox" name="choice"></td>
+                        <td>종양성질환</td>
+                        <td>간 및 간내 담관의 악성 신생물(C22)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr  class="table_body_content">
+                        <td><input type="checkbox" name="choice"></td>
+                        <td>종양성질환</td>
+                        <td>간 및 간내 담관의 악성 신생물(C22)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            
+
+            <p>※관심자원보관함에서 신청 수량이 입력된 자원만 선택 가능합니다.</p>
+            <div class="bookmark_link">
+                <div class="bookmark_img"></div>
+                <p>관심자원보관함 이동</p>
+            </div>
+
+            <div class="button_import">
+                <button type="button">불러오기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
